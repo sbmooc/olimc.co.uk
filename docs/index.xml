@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>oli m-c blog on oli m-c blog </title>
+    <link>olimc.co.uk/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>0001-01-01 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posts</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
