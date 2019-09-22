@@ -1,0 +1,3 @@
+[submodule "themes/simple-a"]
+	path = themes/simple-a
+	url = git@github.com:sbmooc/simple-a.git 
