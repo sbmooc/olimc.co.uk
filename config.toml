@@ -1,4 +1,4 @@
-baseURL = "olimc.co.uk"
+baseURL = "https://olimc.co.uk"
 languageCode = "en-gb"
 title = "oli m-c blog"
 publishdir="docs"

@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>olimc.co.uk/posts/first-post/</loc>
+    <loc>https://olimc.co.uk/posts/first-post/</loc>
     <lastmod>2019-09-22T10:50:07+01:00</lastmod>
   </url>
   
   <url>
-    <loc>olimc.co.uk/</loc>
+    <loc>https://olimc.co.uk/</loc>
     <lastmod>2019-09-22T10:50:07+01:00</lastmod>
   </url>
   
   <url>
-    <loc>olimc.co.uk/posts/</loc>
+    <loc>https://olimc.co.uk/posts/</loc>
     <lastmod>2019-09-22T10:50:07+01:00</lastmod>
   </url>
   
   <url>
-    <loc>olimc.co.uk/categories/</loc>
+    <loc>https://olimc.co.uk/categories/</loc>
   </url>
   
   <url>
-    <loc>olimc.co.uk/tags/</loc>
+    <loc>https://olimc.co.uk/tags/</loc>
   </url>
   
 </urlset>
