@@ -11,16 +11,12 @@ buildFuture: false
 buildExpored: false
 
 params:
-  profileMode:
+  homeInfoParams:
+      Title: 'Oli M-C'
       enabled: true
-      title: "web developer. cyclist."
-      subtitle: 'This is the subtitle'
+      Content1: 'professional software developer, amateur cyclist.'
+      Content2: 'writing the least amount of code that makes users happy.'
       imageUrl: "<image link>" # optional
       imageTitle: "me" # optional
-      buttons:
-        - name: projects
-          url: "/projects"
-        - name: github
-          url: "https://github.com/"
   disableThemeToggle: true
   defaultTheme: dark
