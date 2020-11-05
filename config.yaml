@@ -3,6 +3,8 @@ title: oli m-c
 paginate: 5
 theme: hugo-PaperMod
 
+publishDir: 'publicSite'
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
