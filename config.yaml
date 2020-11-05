@@ -1,0 +1,24 @@
+baseURL: 'https://olimc.co.uk'
+title: oli m-c
+paginate: 5
+theme: hugo-PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpored: false
+
+params:
+  profileMode:
+      enabled: true
+      title: "web developer. cyclist."
+      subtitle: 'This is the subtitle'
+      imageUrl: "<image link>" # optional
+      imageTitle: "me" # optional
+      buttons:
+        - name: projects
+          url: "/projects"
+        - name: github
+          url: "https://github.com/"
+  disableThemeToggle: true
+  defaultTheme: dark
