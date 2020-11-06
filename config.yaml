@@ -11,6 +11,7 @@ buildFuture: false
 buildExpored: false
 
 params:
+  showNav: true
   homeInfoParams:
       Title: 'Oli M-C'
       enabled: true
