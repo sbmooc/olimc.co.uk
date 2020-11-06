@@ -14,8 +14,9 @@ params:
   homeInfoParams:
       Title: 'Oli M-C'
       enabled: true
-      Content1: 'professional software developer, amateur cyclist.'
-      Content2: 'writing the least amount of code that makes users happy.'
+      subTitle: 'blah'
+      Content1: 'writing the least amount of code that makes users happy'
+      Content2: 'python developer, with full stack ambitions. [github](http://www.github.com/sbmooc)'
       imageUrl: "<image link>" # optional
       imageTitle: "me" # optional
   disableThemeToggle: true

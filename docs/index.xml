@@ -5,7 +5,7 @@
     <link>https://olimc.co.uk/</link>
     <description>Recent content on oli m-c</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 22 Sep 2019 10:50:07 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://olimc.co.uk/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,12 +20,13 @@
     </item>
     
     <item>
-      <title>Look at me</title>
-      <link>https://olimc.co.uk/posts/first-post/</link>
-      <pubDate>Sun, 22 Sep 2019 10:50:07 +0100</pubDate>
+      <title>Mapping park run courses</title>
+      <link>https://olimc.co.uk/posts/mapping-park-run/</link>
+      <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://olimc.co.uk/posts/first-post/</guid>
-      <description>Here is some content</description>
+      <guid>https://olimc.co.uk/posts/mapping-park-run/</guid>
+      <description>I love park run. It&amp;rsquo;s been one of the main things i&amp;rsquo;ve missed during the last six, locked down, months. But one thing that&amp;rsquo;s always surprised me is the lack of rigourous information about the difficulty of various park run courses.
+There are (or were, pre-pandemic) over 1,000 events uk events. But one event may have a multitude of different courses that are run each week. For example, my local park run Crystal Palace has at least two courses - a summer course that goes through muddy forest and a winter course that sticks to the paths.</description>
     </item>
     
   </channel>

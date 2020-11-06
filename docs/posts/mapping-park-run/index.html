@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Mapping park run courses - oli m-c</title>
+
+<meta name="keywords" content="" />
+<meta name="description" content="I love park run. It&rsquo;s been one of the main things i&rsquo;ve missed during the last six, locked down, months. But one thing that&rsquo;s always surprised me is the lack of rigourous information about the difficulty of various park run courses.
+There are (or were, pre-pandemic) over 1,000 events uk events. But one event may have a multitude of different courses that are run each week. For example, my local park run Crystal Palace has at least two courses - a summer course that goes through muddy forest and a winter course that sticks to the paths.">
+<meta name="author" content="">
+<link rel="canonical" href="https://olimc.co.uk/posts/mapping-park-run/" />
+<link href="https://olimc.co.uk/assets/css/stylesheet.min.5d44456813d58b9cb020e3474e4c5d14b03070ef2a1e81ef3a4de94a1bc6696b.css" integrity="sha256-XURFaBPVi5ywIONHTkxdFLAwcO8qHoHvOk3pShvGaWs=" rel="preload stylesheet"
+    as="style">
+<link rel="apple-touch-icon" href="https://olimc.co.uk/apple-touch-icon.png">
+<link rel="icon" href="https://olimc.co.uk/favicon.ico">
+<meta name="generator" content="Hugo 0.74.3" />
+
+
+
+
+</head>
+
+<body class="single dark" id="top">
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">
+      Mapping park run courses
+    </h1>
+    <div class="post-meta">November 5, 2020
+
+    </div>
+  </header> 
+
+  <div class="post-content"><p>I love park run. It&rsquo;s been one of the main things i&rsquo;ve missed during the last six, locked down, months. But one thing that&rsquo;s always surprised me is the lack of rigourous information about the difficulty of various park run courses.</p>
+<p>There are (or were, pre-pandemic) over 1,000 events uk events. But one event may have a multitude of different courses that are run each week. For example, my local park run Crystal Palace has at least two courses - a summer course that goes through muddy forest and a winter course that sticks to the paths.</p>
+<p>So I wanted to build something that would answer the question of &lsquo;What&rsquo;s the hilliest park run course in south london&rsquo; or &lsquo;What&rsquo;s the fastest course in Yorkshire&hellip;&rsquo;</p>
+<p>With 1,000 events, that&rsquo;s quite a lot of data collection that I&rsquo;m too lazy to do. So instead, I&rsquo;ve built a simple data collection hub, to store the information about courses in a structured way. Strava is a great start for gathering this data, as most park run events have strava segments that correlate to their courses. So my little web app i&rsquo;ve begun to build allows people to submit a Strava segment id, and the course be downloaded, saved and displayed. Once I have a fair amount of data, I&rsquo;ll start working on building tools to compare the various courses with each other.</p>
+<p>This project is a long way from finished and it&rsquo;s pretty rough, but it&rsquo;s a start and it&rsquo;s out there. But mainly, it was a good opportunity to use some technology I hadn&rsquo;t touched in a while. The code is open in two repositories (<a href="https://github.com/sbmooc/park-run-courses">here</a> and <a href="https://github.com/sbmooc/park-run-courses-be">here</a>).</p>
+<p>It&rsquo;s avaiable for you to play with <a href="http://park-run.olimc.co.uk">here</a></p>
+<p><img src="/park-run-screenshot.png" alt="screenshot"></p>
+<p><strong>The server:</strong></p>
+<p>It&rsquo;s a simple REST api built using Node. I&rsquo;m using a sqlite db to keep it simple, and sequelize for the ORM.</p>
+<p><strong>The front end:</strong></p>
+<p>A vue front end. I used the excellent <a href="https://github.com/vue-leaflet/Vue2Leaflet">vue-leaflet</a> library for the mapping functionality (thanks!)</p>
+<p><strong>Continuious deployment &amp; hosting:</strong></p>
+<p>I&rsquo;m a big fan of <a href="https://github.com/features/actions">github actions</a>. I find the syntax easy to use and you can often find the functionality you need in already published actions. I haven&rsquo;t implemented the b/e CD yet - but the f/e uses vue-cli to to build the static files on the github runner then uses scp to copy them over to the live server.</p>
+<p>I want to dockerise the deployment, so that I build an image on merge, run E2E tests against that image, and if they pass, then deploy the image. This would make rolling back to previous versions really easy, and allows for easy developer replication of production environments.</p>
+<p>I use nginx to reverse proxy the node app, and to serve the static front end. It was the first time i&rsquo;ve implemented an SSL certificate through letsencrypt which was beautifully straightforward.</p>
+<p>I&rsquo;ll continue to work on this over the coming weeks. The design needs a fair amount of work &amp; there are some basic b/e functionality (e.g. throttling, some basic authentication) that needs to be implemented.</p>
+</div>
+  <footer class="post-footer">
+  </footer>
+</article>
+    </main><footer class="footer">
+    <span>&copy; 2020 <a href="https://olimc.co.uk">oli m-c</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top" accesskey="g">
+    <button class="top-link" id="top-link" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" /></svg>
+    </button>
+</a>
+
+
+<script src="https://olimc.co.uk/assets/js/highlight.min.e7afc2928c0925d65c4732dfebe147014d91299a98e819e4b42f25c4fa68e91c.js" integrity="sha256-56/CkowJJdZcRzLf6&#43;FHAU2RKZqY6BnktC8lxPpo6Rw="></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            document.querySelector(`[id='${id}']`).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+</script>
+<script>
+    localStorage.removeItem("pref-theme");
+</script>
+
+</body>
+
+</html>
