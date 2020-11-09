@@ -17,8 +17,12 @@ params:
       enabled: true
       subTitle: 'blah'
       Content1: 'writing the least amount of code that makes users happy'
-      Content2: 'python developer, with full stack ambitions. [github](http://www.github.com/sbmooc)'
+      Content2: 'python developer, with full stack ambitions. [github](http://www.github.com/sbmooc)|<a href="/omc_cv_nov20.pdf" download>cv</a>'
       imageUrl: "<image link>" # optional
       imageTitle: "me" # optional
   disableThemeToggle: true
   defaultTheme: dark
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
