@@ -29,5 +29,15 @@
 There are (or were, pre-pandemic) over 1,000 events UK events. But one event may have a multitude of different courses that are run each week. For example, my local park run Crystal Palace has at least two courses - a summer course that goes through muddy forest and a winter course that sticks to the paths.</description>
     </item>
     
+    <item>
+      <title>Simple, simple, simple</title>
+      <link>https://olimc.co.uk/posts/this_site/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://olimc.co.uk/posts/this_site/</guid>
+      <description>I&amp;rsquo;ve been meaning to set up my own site for a while. Lockdown, longer nights, and a job search pushed me to actually do it. But I needed the barrier for setup to be as low as possible, but still give me a platform to grow and build it further. For now, i&amp;rsquo;ll concentrate on the writing - making it look good can come later.
+This site is simple. I use the excellent Hugo to generate the html, and host it on github pages.</description>
+    </item>
+    
   </channel>
 </rss>

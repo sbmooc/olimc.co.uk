@@ -5,25 +5,25 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>oli m-c</title>
+<title>Simple, simple, simple - oli m-c</title>
 
 <meta name="keywords" content="" />
-<meta name="description" content="">
+<meta name="description" content="I&rsquo;ve been meaning to set up my own site for a while. Lockdown, longer nights, and a job search pushed me to actually do it. But I needed the barrier for setup to be as low as possible, but still give me a platform to grow and build it further. For now, i&rsquo;ll concentrate on the writing - making it look good can come later.
+This site is simple. I use the excellent Hugo to generate the html, and host it on github pages.">
 <meta name="author" content="">
-<link rel="canonical" href="https://olimc.co.uk/" />
+<link rel="canonical" href="https://olimc.co.uk/posts/this_site/" />
 <link href="https://olimc.co.uk/assets/css/stylesheet.min.5d44456813d58b9cb020e3474e4c5d14b03070ef2a1e81ef3a4de94a1bc6696b.css" integrity="sha256-XURFaBPVi5ywIONHTkxdFLAwcO8qHoHvOk3pShvGaWs=" rel="preload stylesheet"
     as="style">
 <link rel="apple-touch-icon" href="https://olimc.co.uk/apple-touch-icon.png">
 <link rel="icon" href="https://olimc.co.uk/favicon.ico">
 <meta name="generator" content="Hugo 0.74.3" />
-<link rel="alternate" type="application/rss&#43;xml" href="https://olimc.co.uk/index.xml">
 
 
 
 
 </head>
 
-<body class="list home dark" id="top">
+<body class="single dark" id="top">
 <noscript>
     <style type="text/css">
         .theme-toggle,
@@ -45,53 +45,32 @@
     </nav>
 </header>
 
-    <main class="main"> 
+    <main class="main">
 
-
-
-<article class="first-entry home-info">
-    <header class="entry-header">
-        <h2>Oli M-C</h2>
-    </header>
-    <section class="entry-content">
-        <p>writing the least amount of code that makes users happy</p>
-        <p>python developer, with full stack ambitions. <a href="http://www.github.com/sbmooc">github</a>|<a href="/omc_cv_nov20.pdf" download>cv</a></p>
-    </section>
-    <footer class="entry-footer"><div class="social-icons"></div>
-</footer>
-</article>
-
-<article class="post-entry"> 
-
-  <header class="entry-header">
-    <h2>
-      Mapping park run courses
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>I love park run. It’s been one of the main things I’ve missed during the last six, locked down, months. But one thing that’s always surprised me is the lack of rigourous information about the difficulty of various park run courses.
-There are (or were, pre-pandemic) over 1,000 events UK events. But one event may have a multitude of different courses that are run each week. For example, my local park run Crystal Palace has at least two courses - a summer course that goes through muddy forest and a winter course that sticks to the paths....</p>
-  </section>
-  <footer class="entry-footer">November 5, 2020
-</footer>
-  <a class="entry-link" aria-label="post link to Mapping park run courses" href="https://olimc.co.uk/posts/mapping-park-run/"></a>
-</article>
-<article class="post-entry"> 
-
-  <header class="entry-header">
-    <h2>
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">
       Simple, simple, simple
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>I’ve been meaning to set up my own site for a while. Lockdown, longer nights, and a job search pushed me to actually do it. But I needed the barrier for setup to be as low as possible, but still give me a platform to grow and build it further. For now, i’ll concentrate on the writing - making it look good can come later.
-This site is simple. I use the excellent Hugo to generate the html, and host it on github pages....</p>
-  </section>
-  <footer class="entry-footer">November 3, 2020
-</footer>
-  <a class="entry-link" aria-label="post link to Simple, simple, simple" href="https://olimc.co.uk/posts/this_site/"></a>
-</article>
+    </h1>
+    <div class="post-meta">November 3, 2020
 
+    </div>
+  </header> 
+
+  <div class="post-content"><p>I&rsquo;ve been meaning to set up my own site for a while. Lockdown, longer nights, and a job search pushed me to actually do it. But I needed the barrier for setup to be as low as possible, but still give me a platform to grow and build it further. For now, i&rsquo;ll concentrate on the writing - making it look good can come later.</p>
+<p>This site is simple. I use the excellent <a href="gohugo.io">Hugo</a> to generate the html, and host it on github pages. Not only is it free, it saves all the faff of having to set up an SSL certificate.</p>
+<p>In order for the static site to be generated I added the following pre-commit hook, so publishing something to my site is as easy as writing a markdown post, committing it, and pushing it to master. Within a couple of minutes it&rsquo;ll be live.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">set -e
+echo <span style="color:#e6db74">&#39;Building a hugo site, this will be deployed on github pages&#39;</span>
+cp docs/CNAME .
+rm -rf docs
+hugo
+mv CNAME docs/
+git add docs
+</code></pre></div></div>
+  <footer class="post-footer">
+  </footer>
+</article>
     </main><footer class="footer">
     <span>&copy; 2020 <a href="https://olimc.co.uk">oli m-c</a></span>
     <span>&middot;</span>
@@ -107,7 +86,8 @@ This site is simple. I use the excellent Hugo to generate the html, and host it 
 </a>
 
 
-
+<script src="https://olimc.co.uk/assets/js/highlight.min.e7afc2928c0925d65c4732dfebe147014d91299a98e819e4b42f25c4fa68e91c.js" integrity="sha256-56/CkowJJdZcRzLf6&#43;FHAU2RKZqY6BnktC8lxPpo6Rw="></script>
+<script>hljs.initHighlightingOnLoad();</script>
 <script>
     window.onload = function () {
         if (localStorage.getItem("menu-scroll-position")) {
