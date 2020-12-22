@@ -1,28 +1,41 @@
-baseURL: 'https://olimc.co.uk'
-title: oli m-c
+baseUrl: /
+languageCode: en-gb
+theme: terminal
 paginate: 5
-theme: hugo-PaperMod
-
-publishDir: 'docs'
-
-enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpored: false
+publishDir: docs
 
 params:
-  showNav: true
-  homeInfoParams:
-      Title: 'Oli M-C'
-      enabled: true
-      subTitle: 'blah'
-      Content1: 'writing the least amount of code that makes users happy'
-      Content2: 'python developer, with full stack ambitions. [github](http://www.github.com/sbmooc)|<a href="/omc_cv_nov20.pdf" download>cv</a>'
-      imageUrl: "<image link>" # optional
-      imageTitle: "me" # optional
-  disableThemeToggle: true
-  defaultTheme: dark
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor: green
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems: 3
+  fullWidthTheme: false
+  # center theme with default width
+  centerTheme: true
+
+languages:
+  en:
+    languageName: English
+    title: oli m-c
+    subtitle: minimal code, happy users
+    keywords: ''
+    menuMore: show
+    readMore: read
+    readOtherPosts: Read other posts
+
+    params:
+      logo:
+        logoText: oli m-c
+        logoHomeLink: /
+
+    menu:
+      main:
+      - identifier: about
+        name: about me
+        url: /about
+      - identifier: ideas
+        name: some ideas
+        url: /ideas
+      - identifier: blog
+        name: blog
+        url: /posts

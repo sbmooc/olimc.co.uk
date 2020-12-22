@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on oli m-c</title>
-    <link>https://olimc.co.uk/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on oli m-c</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
     
-	<atom:link href="https://olimc.co.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

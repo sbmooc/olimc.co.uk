@@ -3,36 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://olimc.co.uk/projects/</loc>
+    <loc>/projects/</loc>
     <lastmod>2020-11-05T15:46:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olimc.co.uk/posts/mapping-park-run/</loc>
+    <loc>/posts/</loc>
     <lastmod>2020-11-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olimc.co.uk/</loc>
+    <loc>/posts/mapping-park-run/</loc>
     <lastmod>2020-11-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olimc.co.uk/posts/</loc>
+    <loc>/</loc>
     <lastmod>2020-11-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olimc.co.uk/posts/this_site/</loc>
+    <loc>/posts/this_site/</loc>
     <lastmod>2020-11-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olimc.co.uk/categories/</loc>
+    <loc>/ideas/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://olimc.co.uk/tags/</loc>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
