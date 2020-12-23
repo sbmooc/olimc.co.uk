@@ -6,10 +6,19 @@
     <description>Recent content on oli m-c</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 05 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Conditional forms with django</title>
+      <link>/posts/conditional_forms/</link>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/conditional_forms/</guid>
+      <description>I&amp;rsquo;ve recently begun some freelancing with a charity to help them out with some development work. They have a single django app that they use accross the business. Over the past couple of years, I&amp;rsquo;ve worked with django a lot, but always in the context of a DRF powered API and a separate front end. This application is a single monolithic application, using django as it was first designed, &amp;lsquo;batteries included&amp;rsquo;.</description>
+    </item>
     
     <item>
       <title>Mapping park run courses</title>
