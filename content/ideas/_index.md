@@ -1,4 +1,4 @@
-some license free ideas...my best ideas are still in my head - but might find their way to here one day
+some license free ideas...
 
 1. A regex puzzle bot on twitter that auto validates responses
 2. A mobile app to find the closest pub. Just a compass and the distance - nothing more
