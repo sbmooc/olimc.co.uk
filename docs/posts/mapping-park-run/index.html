@@ -162,7 +162,7 @@ There are (or were, pre-pandemic) over 1,000 events UK events. But one event may
 <p><strong>The server:</strong></p>
 <p>It&rsquo;s a simple REST API built using Node. I&rsquo;m using a sqlite db to keep it simple, and sequelize for the ORM.</p>
 <p><strong>The front end:</strong></p>
-<p>A vue front end. I used the excellent <a href="https://github.com/vue-leaflet/Vue2Leaflet">vue-leaflet</a> library for the mapping functionality (thanks!)</p>
+<p>A vue front end. I used the excellent <a href="https://github.com/vue-leaflet/Vue2Leaflet">vue-leaflet</a> library for the mapping functionality.</p>
 <p><strong>Continuious deployment &amp; hosting:</strong></p>
 <p>I&rsquo;m a big fan of <a href="https://github.com/features/actions">github actions</a>. I find the syntax easy to use and you can often find the functionality you need in already published actions. I haven&rsquo;t implemented the b/e CD yet - but the f/e uses vue-cli to to build the static files on the github runner then uses scp to copy them over to the live server.</p>
 <p>I plan to Dockerise the deployment, so that I build an image on merge, run E2E tests against that image, and if they pass, then deploy the image. This would make rolling back to previous versions really easy, and allows for easy developer replication of production environments.</p>

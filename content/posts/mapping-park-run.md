@@ -22,7 +22,7 @@ It's a simple REST API built using Node. I'm using a sqlite db to keep it simple
 
 **The front end:**
 
-A vue front end. I used the excellent [vue-leaflet](https://github.com/vue-leaflet/Vue2Leaflet) library for the mapping functionality (thanks!)
+A vue front end. I used the excellent [vue-leaflet](https://github.com/vue-leaflet/Vue2Leaflet) library for the mapping functionality.
 
 **Continuious deployment & hosting:**
 

@@ -5,10 +5,6 @@
     <link>/about/</link>
     <description>Recent content on oli m-c</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    
-	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-gb</language><atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
