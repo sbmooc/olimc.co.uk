@@ -5,8 +5,7 @@
     <link>/</link>
     <description>Recent content on oli m-c</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Thu, 05 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
       <link>/projects/</link>
@@ -14,26 +13,6 @@
       
       <guid>/projects/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Mapping park run courses</title>
-      <link>/posts/mapping-park-run/</link>
-      <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/mapping-park-run/</guid>
-      <description>I love park run. It&amp;rsquo;s been one of the main things I&amp;rsquo;ve missed during the last six, locked down, months. But one thing that&amp;rsquo;s always surprised me is the lack of rigourous information about the difficulty of various park run courses.
-There are (or were, pre-pandemic) over 1,000 events UK events. But one event may have a multitude of different courses that are run each week. For example, my local park run Crystal Palace has at least two courses - a summer course that goes through muddy forest and a winter course that sticks to the paths.</description>
-    </item>
-    
-    <item>
-      <title>Simple, simple, simple</title>
-      <link>/posts/this_site/</link>
-      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/this_site/</guid>
-      <description>I&amp;rsquo;ve been meaning to set up my own site for a while. Lockdown, longer nights, and a job search pushed me to actually do it. But I needed the barrier for setup to be as low as possible, but still give me a platform to grow and build it further. For now, i&amp;rsquo;ll concentrate on the writing - making it look good can come later.
-This site is simple. I use the excellent Hugo to generate the html, and host it on github pages.</description>
     </item>
     
   </channel>

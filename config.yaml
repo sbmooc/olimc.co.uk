@@ -36,6 +36,7 @@ languages:
       - identifier: ideas
         name: some ideas
         url: /ideas
-      - identifier: blog
-        name: blog
-        url: /posts
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
